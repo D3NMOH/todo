@@ -1,0 +1,7 @@
+input {
+  width: 70vw;
+}
+label {
+  margin-top: 10px;
+  display: block;
+}

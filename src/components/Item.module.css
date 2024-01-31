@@ -1,0 +1,29 @@
+.item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: dimgrey;
+  margin: 5px;
+  padding: 5px 15px 5px 15px;
+  border-radius: 15px;
+  transition: all 0.2s;
+  font-family: "KoHo", sans-serif;
+  width: 80vw;
+}
+.item:hover {
+  transition: all 0.2s;
+  background-color: rgb(47, 47, 47);
+}
+.item button {
+  transition: all 0.2s;
+  background-color: rgb(33, 6, 6);
+}
+
+.item:hover button {
+  transition: all 0.2s;
+  background-color: firebrick;
+}
+.item button:active {
+  transition: all 0.2s;
+  background-color: rgb(110, 0, 0);
+}
